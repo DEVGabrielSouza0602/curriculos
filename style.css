@@ -1,0 +1,116 @@
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+ul,li{
+    text-decoration: none;
+}
+.corpodapagina{
+    width: 100%;
+    height: 100%;
+    background-image: url(aleatoria.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+p{
+    color: blueviolet;
+}
+p:hover{
+    transform: scale(1.1);
+    
+    border: 4px #000000;
+    transition: all 0.6s;
+    color: rgb(255, 0, 0);
+    
+}
+.card{
+    margin-left: 25%;
+    width: 50%;
+    height:90%;
+    background-color: aquamarine;
+    border-radius: 30px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: 5px 5px #00000075;
+
+}
+.card:hover{
+    transform: scale(1.01);
+    transition: all 0.6s;
+    opacity: 100%;
+    text-align: initial;
+    border: 1px #000000;
+}
+.conteudo{
+   
+
+}
+.navcontainer{
+    width: 100%;
+    height: 100%;
+    background-color: aquamarine;
+    display: flex;
+    border-radius: 10px 10px 10px 10px;
+    
+
+}
+.topo{
+    
+    letter-spacing: 2px;
+    width: 100%;
+    height: 100% ;
+    margin-top: 4%;
+}
+hr{
+    color: black;
+}
+
+#imgtopo{
+    width: 50%;
+    align-items: center;
+}
+#titulo{
+    width: 50%;
+    align-items: initial;
+    text-align: initial;
+    font-size: 20px;
+    text-decoration: underline;
+}
+ul{
+    text-decoration: none;
+}
+.habilidades{
+    margin-top: 10%;
+    margin-left: 5%;
+    width: 100%;
+    display: block;
+    text-decoration: none;
+    
+}
+#habilidade:hover{
+    transform: scale(1.3);
+    transition: all 0.6s;
+    opacity: 80%;
+    text-align: initial;
+    border: 1px #000000;
+    margin-left: 10%;
+    font-size: 20px;
+}
+.footer{
+    width: 100%;
+    height: 100%;
+    bottom: 0;
+}
+.experiencia{
+    margin-left: 5%;
+
+}
+.footerr{
+    margin-top: 100px;
+    align-items: end;
+    text-align: initial;
+}
+
+
+
